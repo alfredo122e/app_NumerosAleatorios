@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9EFF8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="117dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="260dp"
+        android:background="#77E5F3"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGenerar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="117dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="260dp"
+        android:background="#77E5F3"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGenerar"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Generar números aleatorios"
+        android:textColor="#5E35B1"
+        android:textColorHint="#5E35B1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <Button
+        android:id="@+id/btnGenerar"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="SortearNumero"
+        android:text="Generar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="117dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="260dp"
+        android:background="#77E5F3"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGenerar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
